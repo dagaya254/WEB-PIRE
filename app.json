@@ -1,0 +1,31 @@
+{
+  "name": "❤️𝗗_𝗔_𝗚_𝗔_𝗬_𝗔❤️",
+  "description": "Powerful king dagaya md whatsapp bot",
+  "logo": "https://raw.githubusercontent.com/dagaya254/Bot-4to/refs/heads/main/20250303_055414.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the dagaya md session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
